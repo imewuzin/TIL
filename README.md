@@ -18,10 +18,10 @@
 
 ### :small_orange_diamond:기초
 
-- [[2024.07.11] Markdown]([TIL/기초/CLI.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Markdown.md))
+- [[2024.07.11] Markdown](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Markdown.md)
 
-- [[2024.07.11] CLI]([TIL/기초/CLI.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/CLI.md)
+- [[2024.07.11] CLI](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/CLI.md)
 
-- [[2024.07.11] Git]([TIL/기초/CLI.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Git.md)
+- [[2024.07.11] Git](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Git.md)
 
 
