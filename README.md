@@ -1,12 +1,10 @@
-# Today I Learned
+# :pencil2: Today I Learned :pencil2:
 
 ---
 
 - 배운 것은 당일에 정리해 업로드한다.
 
-
-
-## 작성 규칙
+## :heavy_check_mark: 작성 규칙
 
 ---
 
@@ -14,14 +12,16 @@
 
 - 링크 제목에는 최근 해당 문서를 업로드한 날짜를 명시한다.
 
-
-
-## 분류
+## :heavy_check_mark: 분류
 
 ---
 
-### 기초
+### :small_orange_diamond:기초
 
-- [[2024.07.11] Markdown]()
+- [[2024.07.11] Markdown]([TIL/기초/CLI.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Markdown.md))
+
+- [[2024.07.11] CLI]([TIL/기초/CLI.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/CLI.md)
+
+- [[2024.07.11] Git]([TIL/기초/CLI.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Git.md)
 
 
