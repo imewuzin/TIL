@@ -1,12 +1,12 @@
 # :pencil2: Today I Learned :pencil2:
 
----
+
 
 - 배운 것은 당일에 정리해 업로드한다.
 
 ## :heavy_check_mark: 작성 규칙
 
----
+
 
 - 폴더와 파일명은 영문으로 작성한다.
 
@@ -14,7 +14,7 @@
 
 ## :heavy_check_mark: 분류
 
----
+
 
 ### :small_orange_diamond:기초
 
