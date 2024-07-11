@@ -58,7 +58,7 @@
 
 ## git 설정
 
-- ***git init***
+- ***`git init`***
   
   : git을 시작할 때 가장 먼저 사용하는 명령어.
   
@@ -78,37 +78,37 @@
     > 
     > : 폴더→보기→숨김 파일 누르면 /git 폴더 볼 수 있음. 이 폴더 지우면 git init한 것 취소됨. 수정은 절대 하면 안됨!
 
-- ***git remote***
+- ***`git remote`***
   
   : Repository 생성하고 로컬 저장소와 연결할 때마다 작업
   
-  - *git remote add origin <github url>* (<>는 안 써도 됨)
+  - *`git remote add origin <github url>`* (<>는 안 써도 됨)
   - origin은 깃허브의 원격 저장소 의미
   - 현재 git으로 관리를 선언한 로컬 저장소와 클라우드 호스팅으로 관리할 github의 연결
-  - *git remote -v* : 연결되었는지 확인 가능
-  - *git remote remove origin* : 연결 지우기
+  - *`git remote -v`* : 연결되었는지 확인 가능
+  - *`git remote remove origin`* : 연결 지우기
   - git에서 복사는 shift + insert
 
-- ***git config***
+- ***`git config`***
   
   : 처음으로 git을 시작하거나 ,컴퓨터 세팅 시에 한번만 설정
   
-  - *git config --global [user.name](http://user.name) “<username>”*
-  - *git config --global [user.email](http://user.email) “<email>”*
-  - *git config --global -l*  : git global 설정 보기
-  - --global : 전역 설정, 컴퓨터 전체에
-  - --local : 지역 설정, 폴더에서
-  - git config --global [user.name](http://user.name), git config --global [user.email](http://user.email) 입력하면 입력한 username과 useremail 나옴
+  - *`git config --global [user.name](http://user.name) “<username>”`*
+  - *`git config --global [user.email](http://user.email) “<email>”`*
+  - *`git config --global -l`*  : git global 설정 보기
+  - `--global` : 전역 설정, 컴퓨터 전체에
+  - `--local` : 지역 설정, 폴더에서
+  - *`git config --global [user.name](http://user.name), git config --global [user.email](http://user.email)`* 입력하면 입력한 username과 useremail 나옴
 
 ---
 
 ## git 명령어
 
-- *git init → git remote add origin <url> → git add. → git status : 파일 초록색으로 표시됨 → git commit -m “hello “ → git log --oneline → git push origin master*
+- `git init` → `git remote add origin <url>` → `git add .` → `git status` : 파일 초록색으로 표시됨 → `git commit -m “hello “` → `git log --oneline` → `git push origin master`
   
-  : 로컬과 git 연결? git의 Repositories 들어가면 로컬의 파일들 들어가있음.
+  : 로컬과 git 연결. git의 Repositories 들어가면 로컬의 파일들 들어가있음.
 
-- ***git status***
+- ***`git status`***
   
   : git이 관리하는 현황을 한 눈에 파악할 수 있음
   
@@ -116,38 +116,38 @@
   - working directory 단계에서 많이 사용됨
   - <mark>수시로 입력해 확인할 것!</mark>
 
-- ***git log***
+- ***`git log`***
   
   : commit history 보여줌. git status는 현 상황을 보여준다면, git log는 저자, 날짜, commit의 message를 보여줌.
 
-- ***git add***
+- ***`git add`***
   
   : staging area로 올리는 명령어. 단독 사용X
   
-  - *add .* : 전체 파일 add
-  - *add 파일이름.확장자* : 한 파일 add
+  - *`add .`* : 전체 파일 add
+  - *`add 파일이름.확장자`* : 한 파일 add
   - 여러개의 파일을 add하고 싶으로 공백문자(스페이스바)로 파일 이름 구분
   - 파일 이름에 공백문자가 있다면 따옴표로 파일 이름 감싸기
   - 파일 자체를 올리는 것 X. 파일을 생성 또는 변경했다는 행동을 올리는 것.
 
-- ***git commit***
+- ***`git commit`***
   
   : staging area에 있는 파일들을 저장소에 기록. 해당 시점의 버전을 생성하고 변경 이력을 남기는 것. commit의 이름을 메세지라 함.
   
   : commit의 message 중복 가능. commit의 난수가 구분하는 기준. message는 사람을 위한 것이라 중복 가능. 보통 어떤 변경 사항이 있는지 씀.
   
-  - *git commit -m “message”* : 텍스트 에디터에서 별도의 메시지를 작성하지 않아도 인라인 형식으로 바로 커밋 메시지를 작성
-  - *git commit --amend* : 마지막 커밋 메시지 수정. 이전 커밋메시지를 수정할 수 있도록 텍스트 에디터가 나타남. 사용하면 안좋음. commit 바꾸면 안 좋음
+  - *`git commit -m “message”`* : 텍스트 에디터에서 별도의 메시지를 작성하지 않아도 인라인 형식으로 바로 커밋 메시지를 작성
+  - *`git commit --amend`* : 마지막 커밋 메시지 수정. 이전 커밋메시지를 수정할 수 있도록 텍스트 에디터가 나타남. 사용하면 안좋음. commit 바꾸면 안 좋음
 
-- ***git push origin <branch>***
+- ***`git push origin <branch>`***
   
   : staging area에서 add, commit을 마친 파일 및 폴더들을 repository로 전달.
   
   : -u 쓰지 말자. 어느 브랜치에 올릴지 항상 명시하는게 좋음.
   
-  : <mark>git init 할 필요 없음</mark>(이미 되어있음). 원격 저장소 전체를 복제함.
+  : <mark>`git init` 할 필요 없음</mark>(이미 되어있음). 원격 저장소 전체를 복제함.
 
-- ***git reset HEAD^***
+- ***`git reset HEAD^`***
   
   : Staging Area에 있는 최신 commit 삭제
 
@@ -155,26 +155,26 @@
 
 ## github에서 가져오려면 할 일
 
-- ***git pull origin master***
+- ***`git pull origin master`***
   
-  - git init을 한 뒤, github의 내용
-  1. git status로 상태 확인jpu
+  - `git init`을 한 뒤, github의 내용 가져오기
+  1. `git status`로 상태 확인jpu
   
-  2. 파일 만들어서 git init
+  2. 파일 만들어서 `git init`
   
-  3. git remote add origin <github repository 주소> (ex.[GitHub - imewuzin/TIL: Try!](http://github.com/imewuzin/TIL.git))
+  3. `git remote add origin <github repository 주소> (ex.[GitHub - imewuzin/TIL: Try!](http://github.com/imewuzin/TIL.git))`
   
-  4. 잘못 썼으면 git remote origin
+  4. 잘못 썼으면 `git remote origin`
   
-  5. *git pull origin master*
+  5. *`git pull origin master`*
   
       ⇒ repo에 있는거 가져와짐
 
-- ***git clone***
+- ***`git clone`***
   
-  : git init 할 필요 없음(이미 되어있음). 원격 저장소 전체를 복제함.
+  : `git init` 할 필요 없음(이미 되어있음). 원격 저장소 전체를 복제함.
   
-  1. *git clone <github repository 주소>* (ex.[GitHub - imewuzin/TIL: Try!](http://github.com/imewuzin/TIL.git))
+  1. `*git clone <github repository 주소>* (ex.[GitHub - imewuzin/TIL: Try!](http://github.com/imewuzin/TIL.git))`
 
 - 다른 사람 것도 가져올 수 있음 (조직에 따라 다름)
 
@@ -190,9 +190,9 @@
 
 3. gitignore에 a.txt 작성
 
-4. git init (init 되어 있어도 됨)
+4. `git init` (init 되어 있어도 됨)
 
-5. git status
+5. `git status`
 - 프로젝트 초반에 설정함. DB, API 등을 ignore함.
 
 - [gitignore.io - 자신의 프로젝트에 꼭 맞는 .gitignore 파일을 만드세요](https://www.toptal.com/developers/gitignore/)
