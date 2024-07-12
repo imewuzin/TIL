@@ -14,6 +14,9 @@
 
 - [CLI](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/CLI.md)
 
-- [Git](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Git.md)
-
 - [API](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/API.md)
+  
+### :black_medium_square: Git
+  - [Git 기초](https://github.com/imewuzin/TIL/blob/master/%EA%B8%B0%EC%B4%88/Git.md)
+  - [Git Revert & Reset](https://github.com/imewuzin/TIL/blob/master/Git/Git_Revert%26Reset.md)
+  - [Commit 수정하기](https://github.com/imewuzin/TIL/blob/master/Git/Commit.md)
