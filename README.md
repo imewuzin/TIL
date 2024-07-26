@@ -30,3 +30,6 @@
   - [Python 자료 구조](https://github.com/imewuzin/TIL/blob/master/Python/DataStructure.md)
   - [Python 객체 지향 프로그래밍](https://github.com/imewuzin/TIL/blob/master/Python/OOP.md)
   - [Python 에러, 예외 처리](https://github.com/imewuzin/TIL/blob/master/Python/Error_Except.md)
+
+### :black_medium_square: 데이터 분석
+  - [Pandas, Numpy](https://github.com/imewuzin/TIL/blob/master/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Numpy_Pandas.md))
