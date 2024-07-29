@@ -221,8 +221,8 @@
 - 외장 함수란 것은 없음 (내장함수, 함수만 존재)
 
 - [내장 함수 목록]([내장 함수 &#8212; Python 3.12.4 문서](https://docs.python.org/ko/3/library/functions.html))
-  
-  ![](C:\Users\SSAFY\Desktop\TIL\images\내장함수.PNG)
+
+![내장함수](https://github.com/user-attachments/assets/90259e27-1185-44dd-91f6-51877ff1ddba)
 
 - ```python
   - len()
