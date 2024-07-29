@@ -2,7 +2,7 @@
 
 : 여러 데이터를 효과적으로 사용, 관리하기 위한 구조
 
-![자료구조](C:\Users\SSAFY\Desktop\TIL\images\자료구조.PNG)
+![자료구조](https://github.com/user-attachments/assets/964be1d3-0b0a-4ea8-9869-7c00ac18690a)
 
 ---
 
