@@ -37,7 +37,7 @@ print('Hello World
 
 ![샘플이미지](https://picsum.photos/200/300)
 
-![잠만보](C:\Users\SSAFY\Desktop\TIL\images\pokemon.jpg)
+![pokemon](https://github.com/user-attachments/assets/7b5b98fa-d780-470a-ab77-a6c9387cc433)
 
 - 같은 경로에 있을 때는 **./** 입력하면 선택 가능
 
