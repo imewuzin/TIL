@@ -41,3 +41,9 @@
   - ex) O(3n+2) = O(3n) = O(n)
   
   - ![bigo시간복잡도](https://github.com/user-attachments/assets/e0037bbd-6e95-4961-9e65-b06a9d7e1d92)
+
+- 빅-오메가 표기법
+
+- 빅-세타 표기법
+
+ㄴ
