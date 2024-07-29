@@ -46,7 +46,7 @@
 
 ## local, .hit, repository
 
-<img title="" src="file:///C:/Users/SSAFY/Desktop/TIL/images/git명령어.png" alt="Untitled" data-align="center" width="470">
+![git명령어](https://github.com/user-attachments/assets/0189c776-6c97-4fce-9ff1-6e4765c91159)
 
 - **Working Area** : 빨간 글씨. Git의 .git 하면 생기는 공간. 
 - **Staging Directory** : 초록 글씨. Git에서 Working Directory를 제외한 공간. 대기실이라 생각하면 되며, 생성/수정/삭제 이루어짐
