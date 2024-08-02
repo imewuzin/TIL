@@ -39,11 +39,11 @@
 
 ### :black_medium_square: 알고리즘
 
-- [알고리즘 기초]([TIL/알고리즘/Algorithm.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Algorithm.md))
-- [List]([TIL/알고리즘/List.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/List.md))
-- [Sort]([TIL/알고리즘/Sort.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort.md))
-- [Search]([TIL/알고리즘/Search.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Search.md))
-- [String]([TIL/알고리즘/String.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/String.md))
-- [Brute Force (Exaustive Search)]([TIL/알고리즘/ExaustiveSearch(BruteForce).md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/ExaustiveSearch(BruteForce).md))
-- [Greedy 알고리즘]([TIL/알고리즘/Greedy_Algorithm.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Greedy_Algorithm.md))
-- [BFS & DFS]([TIL/알고리즘/BFS_DFS.md at master · imewuzin/TIL · GitHub](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS_DFS.md))
+- [알고리즘 기초](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Algorithm.md)
+- [List](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/List.md)
+- [Sort](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort.md)
+- [Search](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Search.md)
+- [String](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/String.md)
+- [Brute Force (Exaustive Search)](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/ExaustiveSearch(BruteForce).md)
+- [Greedy 알고리즘](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Greedy_Algorithm.md)
+- [BFS & DFS](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS_DFS.md)
