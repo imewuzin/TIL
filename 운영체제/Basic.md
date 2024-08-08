@@ -83,8 +83,6 @@
 
 ![시스템 호출 명령어](https://github.com/user-attachments/assets/7f9eba08-c004-4902-8415-7cfca8698e58)
 
-
-
 #### cf. 시스템 호출 관찰
 
 - 리눅스 운영 체제
@@ -100,10 +98,6 @@
 - MAC OS 운영 체제
   
   - `sudo dtruss (ls 명령어 경로)`
-
-
-
-
 
 ---
 
