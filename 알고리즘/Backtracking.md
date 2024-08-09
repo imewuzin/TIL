@@ -28,6 +28,8 @@
   
   - 가지치기(pruning) : 유망하지 않은 노드가 포함되는 경로는 더 이상 고려하지 않음
   
+  => **<mark>재귀하려면 넘겨야 할 인자들 선정 후, 종료 조건 및 가지치기 조건 걸기</mark>**
+  
   ```python
   def checknode(v):  # node
     if promising(v):
@@ -89,7 +91,8 @@
   >       a[k] = c[i]
   >       backtrack(a, k+1, n)
   > 
-  > def construct_candidates(a, k, n, c):
+  > # c : 후보 추천 및 저장. 부분 집합의 생성의 경우 [0, 1]
+  > def construct_candidates(a, k, n, c): 
   >   c[0] = True
   >   c[1] = False
   >   return 2
@@ -104,7 +107,7 @@
   > NMAX = 4
   > a = [0] * NMAX
   > num =[1, 2, 3, 4]
-  > backtrack(a, 0, 3)
+  > backtrack(a, 0, NMAX)
   > ```
   > 
   > - 가지치기
@@ -155,7 +158,7 @@
   >       print(a[i], end=" ")
   >     print()
   >   else:
-  >     ncandidates = construct_candidates(a, d, n, c)
+  >     ncandidates = construct_candidates(a, k, n, c)
   >     for i in range(ncandidates):
   >       a[k] = c[i]
   >       backtrack(a, k+1, n)
@@ -172,9 +175,7 @@
   >     return ncandidates
   >   
   >   MAXCANDIDATES = 3
-  >    NMAX = 3
-  >    a = [0] * NMAX
-  >    backtrack(a, 0, 3)
+  >   NMAX = 3
+  >   a = [0] * NMAX  # 원소의 포함 여부 표시하는 배열
+  >   backtrack(a, 0, 3)
   >   ```
-  > 
-  >  
