@@ -206,8 +206,161 @@
   
   - `exec` 시스템 호출 : 메모리 공간을 새로운 프로그램으로 덮어쓰기. 코드/데이터 영역은 실행할 프로그램 내용으로 바뀌고 나머지 영역은 초기화
 
+---
 
+## 스레드 Thread (sw적)
 
+: 프로세스를 구성하는 실행 흐름의 단위
 
+- 하나의 프로세스는 여러 개의 스레드를 가질 수 있음
+  
+  - e) 웹 브라우저 프로세스는 여러 스레드를 통해 화면 출력, 사용자 입력 처리, 검색 기능 등을 동시에 수행 가능
 
+- **멀티스레드 프로세스**  
+  : 여러 개의 실행 흐름을 가지는 프로세스
+  
+  - 현대의 많은 프로그램은 멀티스레드로 구현되어 있으며, 각 스레드는 프로세스의 자원을 공유하면서 실행됨
 
+- 구성 요소
+  
+  - 스레드 ID, 프로그램 카운터를 비롯한 레지스터 값, 스택 등
+  
+  - 실행에 필요한 최소한의 정보를 유지
+
+- <mark>**자원 공유**</mark>
+  
+  - 프로세스가 파일을 열면 모든 스레드가 해당 파일에 접근할 수 있음
+  
+  - 프로세스끼리는 자원을 공유하지 않지만, 스레드끼리는 자원을 공유
+    
+    - **프로세스 간 통신 (IPC)**
+      
+      - 프로세스 간에도 자원을 주고받을 수 있음
+      
+      - 파일을 통한 프로세스 간 통신, 공유 메모리를 통한 프로세스 간 통신
+
+- 멀티스레드와 멀티프로세스
+  
+  - **멀티프로세스**  
+    : 동일한 작업을 수행하는 단일 스레드 프로세스 여러개 실행
+    
+    - 각 프로세스는 독립적인 실행 흐름
+    - 프로세스들끼리는 자원 공유 X
+  
+  - **멀티스레드**  
+    : 하나의 프로세스를 여러 스레드로 실행
+    
+    - 스레드들은 프로세스의 자원을 공유하며 병행 실행 -> 협력, 통신에 유리
+    
+    - 프로세스를 `fork`하면 코드/데이터/힙 영역 등 모든 자원이 복제되어 저장됨
+    
+    - 저장된 메모리 주소를 제외하면 모든 것이 동일한 프로세스 2개가 통째로 메모리에 적재
+    
+    - `fork`를 여러번 하면 메모리에는 같은 프로레스가 통째로 여러개 적재됨
+    
+    - 스레드들은 각기 다른 스레드 ID, (별도의 실행을 위해 꼭 필요한) 프로그램 카운터 값을 포함한 레지스터 값, 스택을 가질 뿐 프로세스가 가지는 자원을 공유
+  
+  - cf. 쓰기 시 복사 (Copy on Write)
+    
+    - `fork` 직후 같은 프로세스를 통째로 메모리에 중복 저장하지 않으면서 동시에 프로세스끼리 자원을 공유하지 않는 방법
+
+- cf. 리눅스 운영체제
+  
+  - 리눅스에서는 프로세스와 스레드를 명확히 구분하지 않고, '태스크'라는 용어로 사용
+
+- 현대 운영체제에서는 CPU에게 작업을 전달할 때 스레드 단위로 할당하는 경우가 많음
+
+---
+
+### 파이썬 코드로 프로세스 다루기
+
+1. 프로세스 생성 및 PID 확인
+   
+   > ```python
+   > import os print(f"My PID is {os.getpid()}")
+   > ```
+
+2. 자식 프로세스 생성
+   
+   - 자식 프로세스를 생성하여 자식 프로세스와 부모 프로세스의 PID를 출력
+   
+   > ```python
+   > import os from multiprocessing 
+   > import Process 
+   > 
+   > def child(): 
+   >     print(f"Child PID is {os.getpid()}") 
+   >     print(f"Parent PID is {os.getppid()}") 
+   > 
+   > if __name__ == "__main__": 
+   >     print(f"Parent PID is {os.getpid()}") 
+   >     p = Process(target=child)
+   >     p.start()
+   >     p.join()
+   > ```
+
+3. 여러 개의 자식 프로세스 생성
+   
+   - 3개의 자식 프로세스를 생성하고, 각각의 자식 프로세스와 부모 프로세스의 PID를 출력
+   
+   > ```python
+   > from multiprocessing import Process
+   > import os
+   > 
+   > def child(num):
+   >     print(f"Child {num} PID is {os.getpid()}")
+   >     print(f"Parent PID is {os.getppid()}")
+   > 
+   > if __name__ == "__main__":
+   >     print(f"Parent PID is {os.getpid()}")
+   >     processes = [] for i in range(3):
+   >         p = Process(target=child, args=(i,))
+   >         processes.append(p)
+   >     p.start() for p in processes:
+   >         p.join()
+   > ```
+
+`
+
+- 이 코드는 합니다.
+
+### 파이썬 코드로 스레드 다루기
+
+1. 스레드 생성 및 프로세스 ID 확인
+   
+   > ```python
+   > import threading
+   > import os
+   > 
+   > def thread_function():
+   >     print(f"Thread ID is {threading.get_native_id()}")
+   >     print(f"Process ID is {os.getpid()}")
+   > 
+   > if __name__ == "__main__":
+   >     print(f"Process ID is {os.getpid()}")
+   >     t = threading.Thread(target=thread_function)
+   >     t.start()
+   >     t.join()
+   > ```
+
+2. 여러 개의 스레드 생성
+   
+   - 3개의 스레드를 생성하고, 각각의 스레드와 프로세스의 ID를 출력
+   
+   > ```python
+   > import threading
+   > import os
+   > 
+   > def thread_function(num):
+   >     print(f"Thread {num} ID is {threading.get_native_id()}")
+   >     print(f"Process ID is {os.getpid()}")
+   > 
+   > if __name__ == "__main__":
+   >     print(f"Process ID is {os.getpid()}")
+   >     threads = [] for i in range(3):
+   >         t = threading.Thread(target=thread_function, args=(i,))
+   >         threads.append(t)
+   >         t.start()
+   >     for t in threads:
+   >         t.join()
+   > ```
