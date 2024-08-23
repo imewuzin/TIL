@@ -40,10 +40,43 @@
 ### :black_medium_square: 알고리즘
 
 - [알고리즘 기초](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Algorithm.md)
+
 - [List](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/List.md)
+
 - [Sort](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort.md)
+
 - [Search](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Search.md)
+
 - [String](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/String.md)
+
+- [Stack](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Stack.md)
+
+- [Queue](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Queue.md)
+
 - [Brute Force (Exaustive Search)](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/ExaustiveSearch(BruteForce).md)
+
 - [Greedy 알고리즘](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Greedy_Algorithm.md)
+
 - [BFS & DFS](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS_DFS.md)
+
+- [백트래킹](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Backtracking.md)
+
+- [분할정복법](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Divide_Conquer.md)
+
+- [동적계획법(DP)](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Dynamic_Programming.md)
+
+### :black_medium_square: 웹
+
+- [HTML 기초](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/HTML.md)
+
+- [CSS 기초](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/CSS_Basic.md)
+
+- [CSS Box Model](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/CSS_BoxModel.md)
+
+- [CSS Bootstrap](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/CSS_Bootstrap.md)
+
+- [CSS Layout](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/CSS_LAyout.md)
+
+- [시멘틱 Web](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/SemanticWeb.md)
+
+- [UX & UI](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/UX_UI.md)
