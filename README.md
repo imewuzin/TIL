@@ -41,23 +41,32 @@
 
 - [알고리즘 기초](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Algorithm.md)
 
-- [List](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/List.md)
+- [비트](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Bit.md)
+- [시간 복잡도](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Complexity.md)
 
-- [Sort](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort.md)
 
-- [Search](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Search.md)
+- [리스트 List](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/List.md)
 
-- [String](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/String.md)
+- [정렬 Sort](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort.md)
 
-- [Stack](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Stack.md)
+- [탐색 Search](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Search.md)
 
-- [Queue](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Queue.md)
+- [문자열 String](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/String.md)
 
-- [Brute Force (Exaustive Search)](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/ExaustiveSearch(BruteForce).md)
+- [스택 Stack](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Stack.md)
 
-- [Greedy 알고리즘](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Greedy_Algorithm.md)
+- [큐 Queue](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Queue.md)
 
-- [BFS & DFS](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS_DFS.md)
+- [이진 트리 Binary Tree](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BinaryTree.md)
+- [이진 탐색 트리 Binary Search Tree](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BinarySearchTree.md)
+
+
+
+- [브루트 포스 Brute Force(Exaustive Search)](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/ExaustiveSearch(BruteForce).md)
+
+- [그리디 알고리즘](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Greedy_Algorithm.md)
+
+- [넓이, 깊이 우선 탐색 BFS & DFS](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS_DFS.md)
 
 - [백트래킹](https://github.com/imewuzin/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Backtracking.md)
 
@@ -80,3 +89,9 @@
 - [시멘틱 Web](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/SemanticWeb.md)
 
 - [UX & UI](https://github.com/imewuzin/TIL/blob/master/%EC%9B%B9/UX_UI.md)
+
+### :black_medium_square: 운영 체제
+- [운영 체제 기초](https://github.com/imewuzin/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Basic.md)
+- [프로세스 Process](https://github.com/imewuzin/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Process.md)
+- [CPU 스케줄링](https://github.com/imewuzin/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/CPU_Scheduling.md)
+- [동기화](https://github.com/imewuzin/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Synchronization.md)
