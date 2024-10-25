@@ -429,7 +429,7 @@
   >     context = {
   >         'form' : form,
   >     }
-  >     return render(request, 'accounts/update.html', context
+  >     return render(request, 'accounts/update.html', context)
   > ```
 
 - `UserChangeForm()` 사용 시 문제점
